@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/js/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: path.resolve(__dirname, 'dist', 'bundle.js'),
+        publicPath: path.resolve(__dirname, 'bundle.js'),
         filename: 'bundle.js'
     },
     resolve: {
